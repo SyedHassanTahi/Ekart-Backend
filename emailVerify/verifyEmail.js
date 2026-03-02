@@ -16,7 +16,7 @@ export const verifyEmail = (token, email) => {
         to: email,
         subject: 'Email Verification',
 
-        text: `Hi! There, You have recently visited our website and entered your email.Please follow the given link to verify your email https://ekart-backend-pink.vercel.app/verify/${token}`
+        text: `Hi! There, You have recently visited our website and entered your email.Please follow the given link to verify your email https://ekart-eccomerce.vercel.app/verify/${token}`
     };
 
 

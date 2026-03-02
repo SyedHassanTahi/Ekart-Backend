@@ -12,7 +12,7 @@ connectDB();
 //Middleware
 app.use(express.json())
 app.use(cors({
-    origin: 'https://ekart-backend-pink.vercel.app',
+    origin: 'https://ekart-eccomerce.vercel.app',
     credentials: true
 }))
 
